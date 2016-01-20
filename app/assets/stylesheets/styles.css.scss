@@ -659,7 +659,8 @@ Features Slider
 .features-bg {
     position: relative;
     min-height: 400px;
-    background: url('features-intro-01.jpg') no-repeat center center;
+    background: no-repeat center center;
+    background-image:image-url('features-intro-01.jpg');
     background-size: cover;
 }
 .features-img {
@@ -777,7 +778,8 @@ blockquote .logo-quote {
 Showcase
 ========================================================================== */
 .showcase {
-    background: url('showcase-bg-fixed-01.jpg') no-repeat center center fixed;
+    background: no-repeat center center fixed;
+    background-image: image-url('showcase-bg-fixed-01.jpg');
     background-size: cover;
 }
 .showcase h1 {
@@ -796,7 +798,9 @@ Showcase
     left: 20%;
     min-height: 676px;
     width: 359px;
-    background: url('iphone-skeleton.png') no-repeat center center;
+    background: no-repeat center center;
+    background-image: image-url('iphone-skeleton.png');
+
 }
 .device-content {
     position: absolute;
