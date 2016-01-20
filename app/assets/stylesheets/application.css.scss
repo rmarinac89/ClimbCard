@@ -1,0 +1,133 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require flickity
+ *= require jquery.fancybox
+ *= require lightbox
+ *= require queries
+ *= require styles
+ *= require fonts
+ */
+
+ @import "font-awesome";
+
+ .main-logo {
+ 	height: 80px;
+ 	width: 80px;
+ }
+
+.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
+	height:2px;
+	width:30px;
+}
+
+.mc-field-group, .clear {
+	display:inline-block;
+}
+
+.email, .postalCode {
+    padding: 29px 46px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    color:#fff;
+    background:transparent;
+
+}
+
+.submit-to-mailchimp {
+	padding: 20px 46px;
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  color:#323a45;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+  &:hover {
+  	background: #73d0da;
+  	border:1px solid #73d0da;
+  	color:#fff;
+  }
+
+}
+
+.email:focus {
+	border-color:#73d0da;
+}
+
+.postalCode:focus {
+	border-color:#73d0da;
+}
+
+
+	#mce-EMAIL::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+	  color: #fff;
+	}
+
+	#mce-PCODE::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+	  color: #fff;
+	}
+
+	#mce-EMAIL::-moz-placeholder-placeholder { /* Safari, Chrome and Opera */
+	  color: #fff;
+	}
+
+	#mce-PCODE::-moz-placeholder-placeholder { /* Safari, Chrome and Opera */
+	  color: #fff;
+	}
+
+	#mce-EMAIL::-ms-input-placeholder { /* Safari, Chrome and Opera */
+	  color: #fff;
+	}
+
+	#mce-PCODE::-ms-input-placeholder { /* Safari, Chrome and Opera */
+	  color: #fff;
+	}
+
+	#mce-EMAIL::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+	  color: #fff;
+	}
+
+	#mce-PCODE::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+	  color: #fff;
+	}
+
+
+	#mce-EMAIL:placeholder-shown { /* Standard one last! */
+	  color: #fff;
+	}
+
+	#mce-PCODE:placeholder-shown { /* Standard one last! */
+	  color: #fff;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
