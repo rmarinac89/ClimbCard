@@ -461,7 +461,7 @@ a:hover, a:focus {
     left: 0px;
     width: 100%;
     height: 100%;
-    background-image: url('grid.png');
+    background: rgba(48, 64, 64, 0.7);
 }
 
 /* ==========================================================================
@@ -582,7 +582,7 @@ Hero
     padding: 60px 0 60px 0;
     min-height: 800px;
     background: rgb(40, 70, 102) no-repeat center center;
-    background-image:image-url('hero-01.jpg'); 
+    background-image:image-url('hero-main.jpg'); 
     background-size: cover;
     color: #fff;
 }
@@ -713,7 +713,7 @@ Features Slider
 Features List
 ========================================================================== */
 .features-list {
-    padding: 130px 0
+    padding: 40px 0
 }
 .features-list h1 {
     margin: 0 0 10px 0;
@@ -724,15 +724,16 @@ Features List
 .features-list p {
     margin-bottom: 20px;
     color: #778899;
+    padding: 0 30px;
 }
 .feature-content {
     display: inline-block;
     margin-left: 0;
-    width: 65%;
+    width: 100%;
 }
 .feature-icon {
     display: inline-block;
-    margin-right: 25px;
+    margin:30px 0px;
     width: 90px;
     height: 90px;
     border: solid 2px #4e9ba3;
@@ -779,7 +780,7 @@ Showcase
 ========================================================================== */
 .showcase {
     background: no-repeat center center fixed;
-    background-image: image-url('showcase-bg-fixed-01.jpg');
+    background-image: image-url('rockwall.jpg');
     background-size: cover;
 }
 .showcase h1 {
@@ -816,7 +817,7 @@ Showcase
 }
 .showcase-wrap {
     position: relative;
-    padding: 100px 0;
+    padding: 100px 0 200px 0;
     min-height: 600px;
 }
 .showcase-slider ul {
@@ -831,17 +832,17 @@ Showcase
 /* ==========================================================================
 Screenshots Intro
 ========================================================================== */
-.screenshots-intro {
-    padding: 170px 0 100px 0;
+.climbcard-intro {
+    padding: 100px 0;
     background-color: #f6f7f9;
 }
-.screenshots-intro h1 {
+.climbcard-intro h1 {
     margin-bottom: 20px;
     color: #24374b;
     font-weight: 400;
     font-size: 22px;
 }
-.screenshots-intro p {
+.climbcard-intro p {
     margin-bottom: 25px;
     color: #778899;
 }
@@ -943,7 +944,8 @@ Download Now
     margin: 0 0 15px 0;
     color: #fff;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 22px;
+
 }
 
 /* ==========================================================================

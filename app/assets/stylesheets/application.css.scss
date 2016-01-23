@@ -23,8 +23,8 @@
  @import "font-awesome";
 
  .main-logo {
- 	height: 80px;
- 	width: 80px;
+ 	height: 120px;
+ 	width: 120px;
  }
 
 .nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
@@ -37,7 +37,7 @@
 }
 
 .email, .postalCode {
-    padding: 29px 46px;
+    padding: 26px 46px;
     border: 2px solid #fff;
     border-radius: 3px;
     font-size: 16px;
@@ -47,7 +47,7 @@
 }
 
 .submit-to-mailchimp {
-	padding: 20px 46px;
+	padding: 17px 46px;
   background-color: #fff;
   border-radius: 3px;
   font-size: 16px;
@@ -117,6 +117,14 @@
 	#mce-PCODE:placeholder-shown { /* Standard one last! */
 	  color: #fff;
 	}
+
+div.mce_inline_error {
+	display:none !important;
+}
+
+div#mce-responses {
+	margin-top:40px;
+}
 
 
 
