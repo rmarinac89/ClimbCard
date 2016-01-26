@@ -23,8 +23,8 @@
  @import "font-awesome";
 
  .main-logo {
- 	height: 120px;
- 	width: 120px;
+ 	height: 65px;
+ 	width: 65px;
  }
 
 .nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
@@ -124,6 +124,23 @@ div.mce_inline_error {
 
 div#mce-responses {
 	margin-top:40px;
+}
+
+.social-icons {
+	font-size:21px;
+
+	a {
+		color:#fff;
+
+	&:hover {
+		color: #73d0da;
+	}	
+		
+	}
+
+	.fa-twitter, .fa-facebook, .fa-instagram {
+		margin:0 10px;
+	}
 }
 
 
