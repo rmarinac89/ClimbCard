@@ -796,7 +796,7 @@ Showcase
 }
 .device {
     position: absolute;
-    top: -60px;
+    top: -87px;
     left: 20%;
     min-height: 676px;
     width: 359px;
@@ -831,21 +831,32 @@ Showcase
 }
 
 /* ==========================================================================
-Screenshots Intro
+Climbcard Intro
 ========================================================================== */
 .climbcard-intro {
-    padding: 100px 0;
+    padding: 60px 0;
     background-color: #f6f7f9;
-}
-.climbcard-intro h1 {
-    margin-bottom: 20px;
-    color: #24374b;
-    font-weight: 400;
-    font-size: 22px;
-}
-.climbcard-intro p {
-    margin-bottom: 25px;
-    color: #778899;
+
+
+    h1 {
+      margin-bottom: 30px;
+      color: #24374b;
+      font-weight: 400;
+      font-size: 22px;
+
+    }
+
+    p {
+      margin-bottom: 25px;
+      color: #778899;  
+    }
+
+    span {
+      color:#24374b;
+    }
+
+
+
 }
 
 /* ==========================================================================
@@ -935,19 +946,32 @@ Screenshots
 }
 
 /* ==========================================================================
-Download Now
+FAQ
 ========================================================================== */
-.download {
-    padding: 120px 0;
-    background-color: #3f6184;
-}
-.download h1 {
+.faq {
+    padding: 60px 0;
+    background-color: #24374b;
+
+  h1 {
     margin: 0 0 15px 0;
     color: #fff;
     font-weight: 400;
     font-size: 22px;
+  }
+
+  .section-title {
+    color: #73d0da;
+    text-align: center;
+    margin:60px 0;
+  }
+
+  p {
+   color:#778899;
+   margin-bottom: 40px; 
+  }
 
 }
+
 
 /* ==========================================================================
 Footer
