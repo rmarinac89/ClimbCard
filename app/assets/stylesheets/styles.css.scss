@@ -445,7 +445,7 @@ a {
     padding: 0 !important;
 }
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 25px;
 }
 a {
@@ -481,7 +481,7 @@ Buttons
     color: #fff;
     text-decoration: none;
 }
-.learn-btn, .download-btn {
+.learn-btn, .os-btn {
     display: inline-block;
     padding: 18px 46px;
     border: 2px solid #fff;
@@ -489,7 +489,7 @@ Buttons
     color: #fff;
     font-size: 16px;
 }
-.learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
+.learn-btn:hover, .learn-btn:focus {
     border-color: #73d0da;
     color: #73d0da;
     text-decoration: none;
@@ -500,14 +500,22 @@ Buttons
     text-transform: uppercase;
     font-weight: 400;
 }
-.read-more-btn i, .download-btn i {
-    margin-left: 5px
+.read-more-btn i, .os-btn i {
+    margin-right: 10px;
+    
 }
-.showcase .download-btn {
-    margin-top: 50px
+
+.os-btn {
+  border-radius: 30px;
+  margin: 20px 10px 20px 0;
+
 }
-.download .download-btn {
-    margin-top: 25px
+
+.showcase {
+    margin-top: 50px;
+}
+.os .os-btn {
+    margin-top: 25px;
 }
 
 /* ==========================================================================
@@ -607,35 +615,7 @@ header i {
     margin-left: 5px
 }
 
-/* ==========================================================================
-Video
-========================================================================== */
-section.video i {
-    margin-right: 10px;
-    color: #323a45;
-    vertical-align: middle;
-    font-size: 50px;
-    -webkit-transition: color 300ms ease-in-out;
-    transition: color 300ms ease-in-out;
-}
-section.video h1 {
-    font-weight: 400;
-    font-size: 20px;
-}
-section.video {
-    padding: 60px 0;
-    background-color: #f6f7f9;
-}
-section.video a {
-    color: #323a45
-}
-section.video a:hover, section.video a:focus {
-    color: #73d0da;
-    text-decoration: none;
-}
-section.video a:hover i, section.video a:focus i {
-    color: #73d0da
-}
+
 
 /* ==========================================================================
 Custom Slider Controls (Flickity)
@@ -710,27 +690,39 @@ Features Slider
 }
 
 /* ==========================================================================
-Features List
+Benefits List
 ========================================================================== */
-.features-list {
-    padding: 40px 0
+
+.benefits-list {
+  padding: 40px 0;
 }
-.features-list h1 {
+
+.benefits-list h1 {
     margin: 0 0 10px 0;
     padding: 0;
     color: #24374b;
     font-size: 20px;
 }
-.features-list p {
+
+.benefits-list .section-title {
+    // color: #73d0da;
+    text-align: center;
+    margin:20px 0;
+    font-size: 24px;
+}
+
+.benefits-list p {
     margin-bottom: 20px;
     color: #778899;
     padding: 0 30px;
 }
+
 .feature-content {
     display: inline-block;
     margin-left: 0;
     width: 100%;
 }
+
 .feature-icon {
     display: inline-block;
     margin:30px 0px;
@@ -781,7 +773,7 @@ Showcase
 ========================================================================== */
 .showcase {
     background: no-repeat center center fixed;
-    background-image: image-url('rockwall.jpg');
+    background-image: image-url('belay-wall.jpeg');
     background-size: cover;
 }
 .showcase h1 {
@@ -833,6 +825,7 @@ Showcase
 /* ==========================================================================
 Climbcard Intro
 ========================================================================== */
+
 .climbcard-intro {
     padding: 60px 0;
     background-color: #f6f7f9;
@@ -854,96 +847,8 @@ Climbcard Intro
     span {
       color:#24374b;
     }
-
-
-
 }
 
-/* ==========================================================================
-Screenshots
-========================================================================== */
-.screenshots ul {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-.screenshots ul li {
-    float: left;
-    min-height: 100%;
-    width: 25%;
-    background-color: #000;
-    list-style: none;
-}
-.screenshots figure {
-    position: relative;
-    overflow: hidden;
-}
-.screenshots figure img {
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-}
-.screenshots figure:hover img, .screenshots figure:focus img {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-.screenshots figcaption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 25% 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(63, 97, 132, 0.85);
-    text-align: center;
-    font-size: 15px;
-    opacity: 0;
-    -webkit-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-}
-.screenshots figcaption a {
-    color: #fff
-}
-.screenshots figcaption a:hover, .screenshots figcaption a:focus {
-    color: #73d0da
-}
-.screenshots figure:hover figcaption, .screenshots figure:focus figcaption {
-    opacity: 1
-}
-.visible {
-    opacity: 1
-}
-.screenshots figure.cs-hover figcaption {
-    opacity: 1
-}
-.screenshots figcaption i {
-    font-size: 35px
-}
-.screenshots figcaption p {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-.screenshots figcaption .caption-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -40px;
-    margin-left: -100px;
-    width: 200px;
-    -webkit-transform: translate(0px, 15px);
-    -ms-transform: translate(0px, 15px);
-    transform: translate(0px, 15px);
-    -webkit-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-}
-.screenshots figure:hover figcaption .caption-content, .screenshots figure:focus figcaption .caption-content {
-    -webkit-transform: translate(0px, 0px);
-    -ms-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-}
 
 /* ==========================================================================
 FAQ
@@ -963,6 +868,7 @@ FAQ
     color: #73d0da;
     text-align: center;
     margin:60px 0;
+    font-size: 24px;
   }
 
   p {
@@ -977,7 +883,7 @@ FAQ
 Footer
 ========================================================================== */
 footer {
-    padding: 100px 0
+    padding: 40px 0
 }
 footer p {
     color: #c7cacc;

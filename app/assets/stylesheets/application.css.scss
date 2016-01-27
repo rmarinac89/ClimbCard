@@ -143,6 +143,58 @@ div#mce-responses {
 	}
 }
 
+.phone-icon {
+	height:200px;
+	width:200px;
+}
+
+// Campaign
+
+.brand-hashtag {
+  // background:#73d0da;
+
+  h1 {
+    color: #fff;
+    font-size:3em;
+    padding:60px 0;
+    font-weight: 500px;
+  }
+}
+
+.campaign {
+    background: no-repeat center center fixed;
+    background-image: image-url('belay-wall.jpeg');
+    background-size: cover;
+}
+
+.campaign-wrap {
+    position: relative;
+    padding: 10px 0;
+    // min-height: 600px;
+}
+
+
+// What we Offer
+
+.benefits-list {
+
+	.sub-section {
+	margin:45px 0 40px 0;
+	padding:0 283px;
+	}
+
+}
+
+
+
+
+// Footer
+
+.logo-wrap {
+	height:auto;
+	width:250px;
+}
+
 
 
 
