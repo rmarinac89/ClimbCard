@@ -36,7 +36,10 @@
 	display:inline-block;
 }
 
-.email, .postalCode {
+
+.user-subscribe {
+
+	.email, .postalCode {
     padding: 26px 46px;
     border: 2px solid #fff;
     border-radius: 3px;
@@ -44,38 +47,7 @@
     color:#fff;
     background:transparent;
 
-}
-
-.submit-to-mailchimp {
-	padding: 17px 46px;
-  background-color: #fff;
-  border-radius: 3px;
-  font-size: 16px;
-  color:#323a45;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-
-  &:hover {
-  	background: #73d0da;
-  	border:1px solid #73d0da;
-  	color:#fff;
-  }
-
-}
-
-.email:focus {
-	border-color:#73d0da;
-}
-
-.postalCode:focus {
-	border-color:#73d0da;
-}
-
+	}
 
 	#mce-EMAIL::-webkit-input-placeholder { /* Safari, Chrome and Opera */
 	  color: #fff;
@@ -117,6 +89,39 @@
 	#mce-PCODE:placeholder-shown { /* Standard one last! */
 	  color: #fff;
 	}
+
+}
+
+.submit-to-mailchimp {
+	padding: 17px 46px;
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  color:#323a45;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+  &:hover {
+  	background: #73d0da;
+  	border:1px solid #73d0da;
+  	color:#fff;
+  }
+
+}
+
+.email:focus {
+	border-color:#73d0da;
+}
+
+.postalCode:focus {
+	border-color:#73d0da;
+}
+
 
 div.mce_inline_error {
 	display:none !important;
@@ -185,15 +190,105 @@ div#mce-responses {
 
 }
 
-
-
-
 // Footer
 
 .logo-wrap {
 	height:auto;
 	width:250px;
 }
+
+
+// Partner Page
+
+
+// .partner-hero {
+
+// }
+
+
+.header-secondary {
+	background:#304040;
+
+	.nav-wrapper {
+		margin-top:30px;
+	}
+}
+
+.partner-hero {
+    position: relative;
+    padding: 60px 0 60px 0;
+    min-height: 450px;
+    background: rgb(40, 70, 102) no-repeat center center;
+    background-image:image-url('toronto-skyline.jpg'); 
+    background-size: cover;
+    color: #fff;
+}
+
+.partner-hero h1 {
+    margin: 100px 0 45px 0;
+    font-weight: 300;
+    font-size: 45px;
+}
+.partner-hero h1 span {
+    display: inline-block;
+    color: #a1a9b0;
+}
+
+.partner-hero {
+    width: 100%;
+    height: 100%;
+}
+header i {
+    margin-left: 5px;
+}
+
+
+.partner-form {
+	background:#ddd;
+	padding:40px 0;
+
+	.mc-field-group {
+		display: block;
+	}
+}
+
+.partner-field {
+		margin: 10px 0;
+		padding: 26px 46px;
+    border: 2px solid #C9D1C8;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.submit-partner-form {
+	padding: 17px 46px;
+  background-color: #ddd;
+  border-radius: 3px;
+  font-size: 16px;
+  color:#323a45;
+  background-image: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+  &:hover {
+  	background: #73d0da;
+  	border:1px solid #73d0da;
+  	color:#fff;
+  }
+
+}
+
+.placeholder-block {
+	padding:40px 0;
+	background:#ddd;
+}
+
+
+
 
 
 
