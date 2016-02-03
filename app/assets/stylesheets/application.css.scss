@@ -32,21 +32,70 @@
 	width:30px;
 }
 
-.mc-field-group, .clear {
-	display:inline-block;
+
+.sub-headline {
+	padding:0 20px;
+	margin:40px 0;
+	display: inline-block;
+  width: 50%;
+}
+
+
+.social-icons {
+
+	font-size:21px;
+		
+	.fa-twitter, .fa-facebook, .fa-instagram {
+		margin:0 10px;
+	}
+
+}
+
+
+.nav-wrapper {
+	
+	.social-icons a {
+		color: #fff;
+	}
+		
+	a:hover {
+		color: #73d0da;
+	}
+			
+}
+
+.climbcard-intro {
+
+	.social-icons a {
+		color: #304040;
+	}
+
 }
 
 
 .user-subscribe {
 
-	.email, .postalCode {
-    padding: 26px 46px;
-    border: 2px solid #fff;
-    border-radius: 3px;
-    font-size: 16px;
-    color:#fff;
-    background:transparent;
+	.mc-field-group, .clear {
+		display:inline-block;
+		margin-right: 5px;
+	}
 
+	.email, .postalCode {
+  padding: 23px 40px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  color:#fff;
+  background:transparent;
+
+	}
+
+	.email {
+		width: 20em;
+	}
+
+	.postalCode {
+		width: 12em;
 	}
 
 	#mce-EMAIL::-webkit-input-placeholder { /* Safari, Chrome and Opera */
@@ -93,7 +142,7 @@
 }
 
 .submit-to-mailchimp {
-	padding: 17px 46px;
+	padding: 14px 17px;
   background-color: #fff;
   border-radius: 3px;
   font-size: 16px;
@@ -131,22 +180,7 @@ div#mce-responses {
 	margin-top:40px;
 }
 
-.social-icons {
-	font-size:21px;
 
-	a {
-		color:#fff;
-
-	&:hover {
-		color: #73d0da;
-	}	
-		
-	}
-
-	.fa-twitter, .fa-facebook, .fa-instagram {
-		margin:0 10px;
-	}
-}
 
 .phone-icon {
 	height:200px;
@@ -195,6 +229,25 @@ div#mce-responses {
 .logo-wrap {
 	height:auto;
 	width:250px;
+}
+
+.footer-nav {
+	
+	.social-icons {
+		display: inline-block;
+	}
+
+	.social-icons a {
+		color: #304040;
+	}
+
+	.divider {
+		width: 2px;
+    height: 14px;
+    background: #304040;
+    display: inline-block;
+	}
+
 }
 
 
@@ -250,6 +303,7 @@ header i {
 	.mc-field-group {
 		display: block;
 	}
+
 }
 
 .partner-field {
@@ -262,12 +316,12 @@ header i {
 
 .submit-partner-form {
 	padding: 17px 46px;
-  background-color: #ddd;
+  background: #304040;
+  color: #fff;
   border-radius: 3px;
   font-size: 16px;
-  color:#323a45;
   background-image: none;
-  border: 1px solid #ddd;
+  border: 1px solid #304040;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
@@ -275,16 +329,10 @@ header i {
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 
   &:hover {
-  	background: #73d0da;
-  	border:1px solid #73d0da;
+  	opacity: 0.9;
   	color:#fff;
   }
 
-}
-
-.placeholder-block {
-	padding:40px 0;
-	background:#ddd;
 }
 
 

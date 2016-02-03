@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	/***************** Waypoints ******************/
+		/***************** Waypoints ******************/
 
 	$('.wp1').waypoint(function() {
 		$('.wp1').addClass('animated fadeInLeft');
@@ -21,7 +21,7 @@ $(document).ready(function() {
 		$('.wp4').addClass('animated fadeInDown');
 	}, {
 		offset: '75%'
-	});
+});
 
 	/***************** Flickity ******************/
 
