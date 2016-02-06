@@ -304,17 +304,20 @@ header i {
 		display: block;
 	}
 
+
+
 }
 
 .partner-field {
 		margin: 10px 0;
 		padding: 26px 46px;
     border: 2px solid #C9D1C8;
-    border-radius: 3px;
+    border-radius: 4px;
     font-size: 16px;
 }
 
 .submit-partner-form {
+	width:100%;
 	padding: 17px 46px;
   background: #304040;
   color: #fff;
@@ -333,6 +336,15 @@ header i {
   	color:#fff;
   }
 
+}
+
+.callToAction {
+	background:#ddd;
+	padding:40px 0;
+
+ .section-title {
+		margin-bottom: 40px;
+	}
 }
 
 
