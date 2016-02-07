@@ -25,6 +25,28 @@
 //= require_tree .
 
 
+$(document).ready(function() {
+
+	setTimeout($("#mce-responses").fadeOut(3000), 5000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
 
 
 

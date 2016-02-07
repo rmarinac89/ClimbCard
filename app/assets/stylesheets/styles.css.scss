@@ -461,7 +461,7 @@ a:hover, a:focus {
     left: 0px;
     width: 100%;
     height: 100%;
-    background: rgba(48, 64, 64, 0.7);
+    background: rgba(52, 68, 68, 0.7);
 }
 
 /* ==========================================================================
@@ -596,9 +596,10 @@ Hero
 }
 
 .hero h1 {
-    margin: 220px 0 0 0;
+    margin: 200px 0 0 0;
     font-weight: 300;
     font-size: 45px;
+    color:#abfd2d;
 }
 .hero h1 span {
     display: inline-block;
@@ -832,12 +833,12 @@ Climbcard Intro
 
 .climbcard-intro {
     padding: 40px 0;
-    background-color: #f6f7f9;
+    background-color: #5d6969;
 
 
     h1 {
       margin-bottom: 30px;
-      color: #24374b;
+      color: #abfd2d;
       font-weight: 400;
       font-size: 22px;
 
@@ -845,11 +846,15 @@ Climbcard Intro
 
     p {
       margin-bottom: 25px;
-      color: #778899;  
+      color: #fdfdfd;  
     }
 
     span {
       color:#24374b;
+    }
+
+    .social-icons a {
+        color: #344444;
     }
 }
 
@@ -858,25 +863,25 @@ Climbcard Intro
 FAQ
 ========================================================================== */
 .faq {
-    padding: 60px 0;
-    background-color: #24374b;
+    padding: 40px 0 20px 0;
+    background-color: #929487;
 
   h1 {
     margin: 0 0 15px 0;
-    color: #fff;
+    color:#262626;
     font-weight: 400;
     font-size: 22px;
   }
 
   .section-title {
-    color: #73d0da;
+    color: #abfd2d;
     text-align: center;
-    margin:60px 0;
+    margin:40px 0;
     font-size: 24px;
   }
 
   p {
-   color:#778899;
+   color:#ddd;
    margin-bottom: 40px; 
   }
 
@@ -887,7 +892,8 @@ FAQ
 Footer
 ========================================================================== */
 footer {
-    padding: 40px 0
+    padding: 40px 0;
+    background:#292a2e;
 }
 footer p {
     color: #c7cacc;
@@ -895,17 +901,21 @@ footer p {
 }
 
 footer li {
-    display: inline-block;
+    display: block;
     list-style: none;
     text-transform: uppercase;
     font-weight: 400;
     line-height: 28px;
-    margin-right:10px;
+    margin-bottom:10px;
 }
 
 footer li a {
-    color:#304040;
+    color:#fdfdfd;
+
+
 }
+
+
 
 
 /* ==========================================================================
