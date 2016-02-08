@@ -700,17 +700,18 @@ Benefits List
 
 .benefits-list {
   padding: 40px 0;
+  background:#161925;
 }
 
 .benefits-list h1 {
     margin: 0 0 10px 0;
     padding: 0;
-    color: #24374b;
+    color: #fdfdfd;
     font-size: 20px;
 }
 
 .benefits-list .section-title {
-    // color: #73d0da;
+    color: #abfd2d;
     text-align: center;
     margin:20px 0;
     font-size: 24px;
@@ -742,7 +743,7 @@ Benefits List
     line-height: 90px;
 }
 .feature-icon i {
-    color: #4e9ba3
+    color: #abfd2d;
 }
 
 /* ==========================================================================
@@ -780,6 +781,7 @@ Showcase
     background: no-repeat center center fixed;
     background-image: image-url('summit-climb.jpg');
     background-size: cover;
+    margin-top:0;
 }
 .showcase h1 {
     margin: 0 0 20px 0;
@@ -832,13 +834,20 @@ Climbcard Intro
 ========================================================================== */
 
 .climbcard-intro {
-    padding: 40px 0;
-    background-color: #5d6969;
+    // padding: 40px 0;
+    background-color: #ddd;
 
+    .container-fluid {
+        padding-left: 0;
+    }
+
+    .content-wrapper {
+        padding:20px;
+    }
 
     h1 {
       margin-bottom: 30px;
-      color: #abfd2d;
+      color: #e20000;
       font-weight: 400;
       font-size: 22px;
 
@@ -846,7 +855,7 @@ Climbcard Intro
 
     p {
       margin-bottom: 25px;
-      color: #fdfdfd;  
+      color: #262626  
     }
 
     span {
@@ -892,9 +901,14 @@ FAQ
 Footer
 ========================================================================== */
 footer {
-    padding: 40px 0;
+    padding: 25px 0;
     background:#292a2e;
 }
+
+footer ul {
+    margin:0;
+}
+
 footer p {
     color: #c7cacc;
     font-size: 12px;
@@ -906,12 +920,11 @@ footer li {
     text-transform: uppercase;
     font-weight: 400;
     line-height: 28px;
-    margin-bottom:10px;
+    margin-bottom:5px;
 }
 
 footer li a {
     color:#fdfdfd;
-
 
 }
 
