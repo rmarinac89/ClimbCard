@@ -461,7 +461,7 @@ a:hover, a:focus {
     left: 0px;
     width: 100%;
     height: 100%;
-    background: rgba(52, 68, 68, 0.7);
+    background: rgba(44,45,66,0.7);
 }
 
 /* ==========================================================================
@@ -481,13 +481,14 @@ Buttons
     color: #fff;
     text-decoration: none;
 }
-.learn-btn, .os-btn {
+
+.os-btn {
     display: inline-block;
     padding: 18px 46px;
-    border: 2px solid #fff;
     border-radius: 3px;
     color: #fff;
     font-size: 16px;
+    background: #23CE6B;
 }
 .learn-btn:hover, .learn-btn:focus {
     border-color: #73d0da;
@@ -506,7 +507,7 @@ Buttons
 }
 
 .os-btn {
-  border-radius: 30px;
+  border-radius: 50px;
   margin: 20px 10px 20px 0;
 
 }
@@ -700,18 +701,18 @@ Benefits List
 
 .benefits-list {
   padding: 40px 0;
-  background:#161925;
+  background:#fff;
 }
 
 .benefits-list h1 {
     margin: 0 0 10px 0;
     padding: 0;
-    color: #fdfdfd;
+    color: #171738;
     font-size: 20px;
 }
 
 .benefits-list .section-title {
-    color: #abfd2d;
+    color: #171738;
     text-align: center;
     margin:20px 0;
     font-size: 24px;
@@ -734,16 +735,16 @@ Benefits List
     margin:30px 0px;
     width: 90px;
     height: 90px;
-    border:solid 2px #C9D1C8;
-    // border: solid 2px #4e9ba3;
+    border: 2px solid #12355B;
     border-radius: 50%;
     vertical-align: top;
     text-align: center;
     font-size: 25px;
     line-height: 90px;
+    // background: #12355B;
 }
 .feature-icon i {
-    color: #abfd2d;
+    color: #23CE6B;
 }
 
 /* ==========================================================================
@@ -778,20 +779,22 @@ blockquote .logo-quote {
 Showcase
 ========================================================================== */
 .showcase {
-    background: no-repeat center center fixed;
-    background-image: image-url('summit-climb.jpg');
-    background-size: cover;
+    // background: no-repeat center center fixed;
+    // background-image: image-url('summit-climb.jpg');
+    // background-size: cover;
     margin-top:0;
+    background:#f5f5f5;
 }
+
 .showcase h1 {
     margin: 0 0 20px 0;
-    color: #fff;
+    color: #171738;
     font-weight: 400;
     font-size: 22px;
 }
 .showcase p {
     margin-bottom: 25px;
-    color: #fff;
+    color: #778899;
 }
 .device {
     position: absolute;
@@ -815,9 +818,9 @@ Showcase
     width: 247px;
     height: 445px;
 }
-.showcase-wrap {
+.iphone-wallet {
     position: relative;
-    padding: 100px 0 200px 0;
+    padding: 100px 0;
     min-height: 600px;
 }
 .showcase-slider ul {
@@ -868,29 +871,43 @@ Climbcard Intro
 }
 
 
+// Parallax
+
+.parallax {
+    position: relative;
+    background: no-repeat center center fixed;
+    background-image: image-url('rockwall.jpg');
+    background-size: cover;
+    margin-top:0;
+    min-height: 500px;
+
+
+}
+
+
 /* ==========================================================================
 FAQ
 ========================================================================== */
 .faq {
     padding: 40px 0 20px 0;
-    background-color: #929487;
+    background-color: #fff;
 
   h1 {
     margin: 0 0 15px 0;
-    color:#262626;
+    color:#171738;
     font-weight: 400;
     font-size: 22px;
   }
 
   .section-title {
-    color: #abfd2d;
+    color: #23CE6B;
     text-align: center;
     margin:40px 0;
     font-size: 24px;
   }
 
   p {
-   color:#ddd;
+   color:#778899;
    margin-bottom: 40px; 
   }
 
@@ -902,7 +919,7 @@ Footer
 ========================================================================== */
 footer {
     padding: 25px 0;
-    background:#292a2e;
+    background: #171738;;
 }
 
 footer ul {
@@ -1053,4 +1070,14 @@ Waypoints
 .delay-1s {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
+}
+
+.delay-15s {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+.delay-2s {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
 }

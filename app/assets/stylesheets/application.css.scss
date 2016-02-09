@@ -34,7 +34,6 @@
 
 
 .sub-headline {
-	// padding:0 20px;
 	margin: 30px 0 60px 0;
 	display: inline-block;
   width: 60%;
@@ -182,30 +181,7 @@ div#mce-responses {
 	width:200px;
 }
 
-// Campaign
 
-.brand-hashtag {
-  // background:#73d0da;
-
-  h1 {
-    color: #fff;
-    font-size:3em;
-    padding:60px 0;
-    font-weight: 500px;
-  }
-}
-
-.campaign {
-    background: no-repeat center center fixed;
-    background-image: image-url('belay-wall.jpeg');
-    background-size: cover;
-}
-
-.campaign-wrap {
-    position: relative;
-    padding: 10px 0;
-    // min-height: 600px;
-}
 
 
 // What we Offer
@@ -330,7 +306,7 @@ header i {
 }
 
 .callToAction {
-	background:#373737;
+	background:#0276af;
 	padding:40px 0;
 
  .section-title {
