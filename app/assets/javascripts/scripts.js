@@ -22,6 +22,11 @@ $(document).ready(function() {
 	}, {
 		offset: '75%'
 });
+	$('.wp5').waypoint(function() {
+		$('.wp5').addClass('animated zoomInDown');
+	}, {
+		offset: '75%'
+});
 
 	/***************** Flickity ******************/
 

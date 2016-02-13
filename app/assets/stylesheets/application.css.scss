@@ -22,9 +22,14 @@
 
  @import "font-awesome";
 
- .main-logo {
- 	height: 70px;
- 	width: 70px;
+
+ a:hover, a:active {
+ 	color: #23CE6B;
+ }
+
+ .img-box {
+ 		height: auto;
+    width: 75px;
  }
 
 .nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
@@ -55,13 +60,15 @@
 
 
 .nav-wrapper {
+
+	line-height:70px;
 	
 	.social-icons a {
 		color: #fff;
 	}
 		
 	a:hover {
-		color:#acfe2e;
+		color:#23CE6B;
 	}
 			
 }
@@ -151,18 +158,18 @@
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 
   &:hover {
-  	background: #acfe2e;
-  	border:1px solid #acfe2e;
+  	background: #23CE6B;
+  	border:1px solid #23CE6B;
   }
 
 }
 
 .email:focus {
-	border-color:#73d0da;
+	border-color: #23CE6B;;
 }
 
 .postalCode:focus {
-	border-color:#73d0da;
+	border-color: #23CE6B;
 }
 
 
@@ -179,6 +186,16 @@ div#mce-responses {
 .phone-icon {
 	height:200px;
 	width:200px;
+}
+
+// Quotes
+
+.author {
+	color:#23CE6B;
+}
+
+.content-logo {
+	margin-top:20px;
 }
 
 
@@ -198,8 +215,9 @@ div#mce-responses {
 // Footer
 
 .logo-wrap {
-	height:70px;
+	height:auto;
 	width:70px;
+	display:inline-block;
 
 }
 
@@ -212,7 +230,7 @@ footer {
 	}
 
 	.social-icons a {
-		color: #abfd2d;
+		color: #23CE6B;
 	}
 
 }
@@ -221,22 +239,9 @@ footer {
 // Partner Page
 
 
-// .partner-hero {
-
-// }
-
-
-.header-secondary {
-	background:#304040;
-
-	.nav-wrapper {
-		margin-top:30px;
-	}
-}
-
 .partner-hero {
     position: relative;
-    padding: 60px 0 60px 0;
+    padding: 15px 0 60px 0;
     min-height: 450px;
     background: rgb(40, 70, 102) no-repeat center center;
     background-image:image-url('toronto-skyline.jpg'); 
@@ -248,6 +253,7 @@ footer {
     margin: 100px 0 45px 0;
     font-weight: 300;
     font-size: 45px;
+    color:#23CE6B;
 }
 .partner-hero h1 span {
     display: inline-block;
@@ -264,7 +270,7 @@ header i {
 
 
 .partner-form {
-	background:#ddd;
+	background:#f5f5f5;
 	padding:40px 0;
 
 	.mc-field-group {
@@ -286,12 +292,12 @@ header i {
 .submit-partner-form {
 	width:100%;
 	padding: 17px 46px;
-  background: #304040;
+  background: #23CE6B;
   color: #fff;
   border-radius: 3px;
   font-size: 16px;
   background-image: none;
-  border: 1px solid #304040;
+  border: 1px solid #23CE6B;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
@@ -306,12 +312,12 @@ header i {
 }
 
 .callToAction {
-	background:#0276af;
+	background:#12355B;
 	padding:40px 0;
 
  .section-title {
 		margin-bottom: 40px;
-		color:#abfd2d;
+		color:#23CE6B;
 	}
 }
 

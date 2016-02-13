@@ -9,13 +9,11 @@
 				<div class="container">
 					<div class="row nav-wrapper">
 						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
-								<div class="main-logo">
 								<%= link_to root_path do %>
-									<%= image_tag "new_white_logo.png", class: "img-responsive", alt: "Boxify Logo" %>
+									<%= image_tag "new_white_logo.png", class: "img-box", alt: "Boxify Logo" %>
 								<% end %>
-							</div>
 						</div>
-						<div class="col-md-6 col-sm-6 col-xs-6 text-right navicon social-icons">
+						<div class="col-md-6 col-sm-6 col-xs-6 text-right navicon social-icons clearfix">
 							<a href="https://twitter.com/climbcard"><i class="fa fa-twitter"></i></a>
 							<a href="https://facebook.com/climbcard"><i class="fa fa-facebook"></i></a>
 							<a href="https://www.instagram.com/climbcard/"><i class="fa fa-instagram"></i>
@@ -29,32 +27,7 @@
 							<p class="sub-headline">Launching Spring 2016, ClimbCard gives you unrestricted access to Toronto’s best indoor rock climbing gyms.</p>
 							</div>
 
-<!-- Begin MailChimp Signup Form -->
-<section class="user-subscribe">
-	<div id="mc_embed_signup">
-	<form action="//climbcard.us12.list-manage.com/subscribe/post?u=62b58dfeef74782cefec4dfcc&amp;id=894976712f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	    <div id="mc_embed_signup_scroll">
-		
-	<div class="mc-field-group">
-		<input type="email" value="" name="EMAIL" class="required email form-control animated fadeInUp" id="mce-EMAIL" placeholder="Enter Email">
-	</div>
-	<div class="mc-field-group">
-		<input type="text" value="" name="PCODE" class="required postalCode form-control animated fadeInUp" id="mce-PCODE" placeholder="Postal Code">
-	</div>
-
-	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_62b58dfeef74782cefec4dfcc_894976712f" tabindex="-1" value=""></div>
-	    <div class="clear"><input type="submit" value="Notify Me" name="notify_me" id="mc-embedded-subscribe" class="button submit-to-mailchimp animated fadeInUp"></div>
-	    </div>
-	    	<div id="mce-responses" class="clear">
-			<div class="response" id="mce-error-response" style="display:none"></div>
-			<div class="response" id="mce-success-response" style="display:none"></div>
-		</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-	</form>
-	</div>
-</section>
-
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='PCODE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<!--End mc_embed_signup-->
+							<%= render "layouts/partials/mailchimp_form" %>
 
 						</div>
 					</div>
@@ -75,8 +48,8 @@
 								</div>
 							</div>
 							<div class="feature-content text-center">
-								<h1>Vast Network of Gyms</h1>
-								<p>ClimbCard gives you access to an amazing network of climbing gyms each with their own unique experience.</p>
+								<h5>Vast Network of Gyms</h5>
+								<p>ClimbCard gives you access to an amazing network of climbing gyms, each with their own unique experience.</p>
 							</div>
 						</div>
 
@@ -87,8 +60,8 @@
 								</div>
 							</div>
 							<div class="feature-content text-center">
-								<h1>No Restrictions</h1>
-								<p>Climb as much as you want, 7 days a week.</p>
+								<h5>No Restrictions</h5>
+								<p>We know how much you love to climb which is why there are no restrictions with your membership.</p>
 							</div>
 						</div>
 
@@ -99,7 +72,7 @@
 								</div>
 							</div>
 							<div class="feature-content text-center">
-								<h1>One Flat Fee</h1>
+								<h5>One Flat Fee</h5>
 								<p>Our membership is both flexible and affordable. Pay month-to-month and cancel anytime.</p>
 							</div>
 						</div>
@@ -110,8 +83,8 @@
 								</div>
 							</div>
 							<div class="feature-content text-center">
-								<h1>Health &amp; Wellness</h1>
-								<p>Climbing requires strength, mental toughness, and rigorous technique. Break out of your boring gym routing and elevate your fitness to new heights!</p>
+								<h5>Health &amp; Wellness</h5>
+								<p>Climbing is a full body workout that builds functional strength and endurance. Have what it takes to make it to the top?</p>
 							</div>
 						</div>
 				</div> <!--/row-->
@@ -124,7 +97,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-								<%= image_tag "iphone_wallet.png", alt: "Climbcard Wallet iOS" %>
+								<%= image_tag "white_iphone_girl.png", class: "wp3", alt: "Climbcard Wallet iOS" %>
 						</div>
 						<div class="col-md-6">
 							<h1>ClimbCard is Fast, Easy, &amp; Convenient!</h1>
@@ -139,9 +112,61 @@
 			</div>
 		</section>
 
+
+				<section class="features-intro">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 nopadding features-intro-img">
+						<div class="features-bg">
+							<div class="texture-overlay"></div>
+						</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="features-slider">
+								<ul class="slides" id="featuresSlider">
+									<li>
+										<h1>Is Rock Climbing a Good Cardio Workout?</h1>
+										<p>If you find yourself bored by the typical gym workouts or jogging around the block, you may want to try a different approach to physical fitness. Rock climbing is an increasingly popular sport that provides a total-body workout without the monotony of pacing on a treadmill.</p>
+										<cite class="author">Jill Lee, Livestrong</cite>
+											<div class="content-logo">
+												<%= image_tag "live_strong.png", class: "custom-responsive", alt: "Livestrong" %>
+											</div>
+									</li>
+									<li>
+										<h1>How Rock Climbing Does Your Mind And Body Good</h1>
+										<p>Although not often thought of as a common form of cardio, ascending walls is a sure way to get your heart pumping, similar to the way climbing stairs or jogging does. A one-hour climb session can burn well over 700 calories. Plus, tricky maneuvers and lengthy reaches often require developing flexibility that wasn't there before.</p>
+										<cite class="author">Abigail Wise, The Huffington Post</cite>
+										<div class="content-logo">
+												<%= image_tag "huff_po.png", class: "custom-responsive", alt: "Huffington Post" %>
+											</div>
+										
+									</li>
+									<li>
+										<h1>Is Indoor Rock Climbing A Good Workout?</h1>
+										<p>Hauling yourself up a wall will challenge your whole body—and what guy couldn't use a few Spider-Man moves in his repertoire? Indoor climbing is a great full-body workout for both strength and cardio, says 5.14 (extreme-grade) climber Seth Lytton of trainingbeta.com.</p>
+										<cite class="author">Men's Fitness Editors, Men's Fitness</cite>
+										<div class="content-logo">
+												<%= image_tag "mens_fitness_logo.png", class: "custom-responsive", alt: "Men's Fitness" %>
+											</div>
+									</li>
+									<li>
+										<h1>The Next Urban Sports Craze</h1>
+										<p>Indoor climbing could soon replace spin class as the urban professional’s sport of choice</p>
+										<cite class="author">Abe Streep, Outside</cite>
+										<div class="content-logo">
+												<%= image_tag "outside_logo.jpg", class: "custom-responsive", alt: "Outside" %>
+											</div>
+									</li>
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<!-- Parallax -->
 
-		<section class="parallax">
+		<!-- <section class="parallax">
 			<div class="parallax-wrap">
 				<div class="texture-overlay"></div>
 				<div class="container">
@@ -152,7 +177,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 
 		<!-- /Parallax -->
@@ -160,32 +185,40 @@
 
 		<section class="faq">
 			<div class="container">
-				<h1 class="section-title">We Thought You Might Ask...</h1>
+				<h1 class="section-title">We Thought You Might Ask</h1>
 				<div class="row">
 					<div class="col-md-6">
-						<h1>Are there any restrictions as to when I can climb?</h1>
+						<div class="faq-block">
+						<h5>Are there any restrictions as to when I can climb?</h5>
 						<p>With ClimbCard, you can climb at any of our partner gyms with no restrictions. Regardless of if you prefer to climb morning, afternoon or night, ClimbCard gives you full access to your favourite climbing gyms.</p>
+						</div>
 					</div>
 					<div class="col-md-6">
-						<h1>Can I boulder, top-rope and lead climb?</h1>
+						<div class="faq-block">
+						<h5>Can I boulder, top-rope and lead climb?</h5>
 						<p>Absolutely! All of the the ClimbCard partner gyms have a variety of walls sure to challenge climbers of every skill-set. Belay tests may be required to climb on some walls.</p>
+						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<h1>Does this include rental equipment?</h1>
+						<div class="faq-block">
+						<h5>Does this include rental equipment?</h5>
 						<p>No, rental equipment is not included in the membership. In order to get started we recommend purchasing a harness, climbing shoes and a chalk bag.</p>
+						</div>
 					</div>
 					<div class="col-md-6">
-						<h1>Can I put my membership on hold?</h1>
+						<div class="faq-block">
+						<h5>Can I put my membership on hold?</h5>
 						<p>Certainly! We understand that you may need to take a break. Simply put your membership on hold and resume once you’re ready.</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<section class="callToAction">
-			<h1 class="section-title text-center">Tune in for our official launch!</h1>
+			<h1 class="section-title text-center">Want early access? Sign up for the latest news!</h1>
 			<section class="user-subscribe">
 				<div id="mc_embed_signup">
 				<form action="//climbcard.us12.list-manage.com/subscribe/post?u=62b58dfeef74782cefec4dfcc&amp;id=894976712f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate text-center" target="_blank" novalidate>
