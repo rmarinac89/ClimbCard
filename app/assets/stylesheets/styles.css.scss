@@ -597,7 +597,7 @@ Hero
 }
 
 .hero h1 {
-    margin: 200px 0 0 0;
+    margin: 5em 0 0 0;
     font-weight: 300;
     font-size: 2.813em;
     color:#23CE6B;
@@ -1323,7 +1323,7 @@ footer {
 .partner-hero h1 {
     margin: 100px 0 45px 0;
     font-weight: 300;
-    font-size: 45px;
+    font-size: 2.813em;;
     color:#23CE6B;
 }
 .partner-hero h1 span {
@@ -1440,6 +1440,19 @@ header i {
 }
 
 
+// 768px to 476px
+@media all and (max-width:48em) and (min-width:29.750em) {
+  
+  footer {
+    .col-xs-12 {
+      width: 50%;
+      float: left;
+    }
+  }
+
+}
+
+
 // 719px
 @media all and (max-width:44.938em) {
 
@@ -1461,18 +1474,25 @@ header i {
 
 }
 
+@media screen and (max-width:581px) {
 
-// 680px
-@media all and (max-width:42.5em) {
-    
+    .user-subscribe .mc-field-group, .user-subscribe .clear {
+      display: block;
+      margin:10px 0;
+    }
 
-}
+    .user-subscribe .email {
+      width: 100%;
+    }
 
+    .user-subscribe .postalCode {
+      width: 100%;
+    }
 
-// 640px
-@media all and (max-width:40em) {
-    
-
+    .submit-to-mailchimp {
+      width: 100%;
+      margin-top:8px;
+    }
 }
 
 
@@ -1499,25 +1519,6 @@ header i {
       margin:4em 0 0 0;
     }
 
-
-    .user-subscribe .mc-field-group, .user-subscribe .clear {
-      display: block;
-      margin:10px 0;
-    }
-
-    .user-subscribe .email {
-      width: 100%;
-    }
-
-    .user-subscribe .postalCode {
-      width: 100%;
-    }
-
-    .submit-to-mailchimp {
-      width: 100%;
-    }
-
-
     .features-slider { 
         padding: 11% 50px 10% 50px;
     }
@@ -1528,6 +1529,10 @@ header i {
 
     .callToAction .section-title {
       font-size: 1.5em;
+    }
+
+    .partner-hero h1 {
+      font-size:2.3em;
     }
 
     footer {
