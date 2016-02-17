@@ -484,7 +484,7 @@ Buttons
 
 .os-btn {
     display: inline-block;
-    padding: 3% 8%;
+    padding: 1em 2em;
     border-radius: 3px;
     color: #fff;
     font-size: 16px;
@@ -599,7 +599,7 @@ Hero
 .hero h1 {
     margin: 200px 0 0 0;
     font-weight: 300;
-    font-size: 45px;
+    font-size: 2.813em;
     color:#23CE6B;
 }
 .hero h1 span {
@@ -618,8 +618,6 @@ Hero
 header i {
     margin-left: 5px;
 }
-
-
 
 
 
@@ -660,6 +658,7 @@ Features Slider
     padding: 7% 80px 10% 80px;
     height: 400px;
     background-color: #12355B;
+    text-align: center;
 }
 .features-slider ul {
     margin: 0;
@@ -688,7 +687,7 @@ Features Slider
 }
 .features-slider .flickity-page-dots {
     text-align: center;
-    margin-top: 10%;
+    // margin-top: 10%;
     position: static;
 }
 .features-slider .flickity-page-dots .dot {
@@ -827,7 +826,7 @@ Showcase
 }
 .iphone-wallet {
     position: relative;
-    padding: 100px 0;
+    padding: 40px 0;
     min-height: 600px;
 }
 .showcase-slider ul {
@@ -878,20 +877,6 @@ Climbcard Intro
 }
 
 
-// Parallax
-
-.parallax {
-    position: relative;
-    background: no-repeat center center fixed;
-    background-image: image-url('chalk-hands.jpg');
-    background-size: cover;
-    margin-top:0;
-    min-height: 400px;
-
-
-}
-
-
 /* ==========================================================================
 FAQ
 ========================================================================== */
@@ -909,7 +894,7 @@ FAQ
   .section-title {
     color: #23CE6B;
     text-align: center;
-    margin:40px 0;
+    margin-bottom:40px;
     font-size: 24px;
   }
 
@@ -1101,3 +1086,467 @@ Waypoints
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
+
+
+.form-control:focus {
+  box-shadow:none;
+  -webkit-box-shadow: none;
+}
+
+
+a:hover, a:active {
+  color: #23CE6B;
+ }
+
+ .img-box {
+    height: auto;
+    width: 75px;
+ }
+
+.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
+  height:2px;
+  width:30px;
+}
+
+
+.sub-headline {
+  margin: 30px 0 60px 0;
+  display: inline-block;
+  width: 60%;
+  font-size: 1.438em;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+
+.social-icons {
+
+  font-size:21px;
+    
+  .fa-twitter, .fa-facebook, .fa-instagram {
+    margin:0 10px;
+  }
+
+}
+
+
+.nav-wrapper {
+
+  line-height:70px;
+  
+  .social-icons a {
+    color: #fff;
+  }
+    
+  a:hover {
+    color:#23CE6B;
+  }
+      
+}
+
+
+
+.user-subscribe {
+
+  .mc-field-group, .clear {
+    display:inline-block;
+    margin-right: 5px;
+  }
+
+  .email, .postalCode {
+  padding: 23px 15px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  font-size: 1.1em;
+  color:#fff;
+  background:transparent;
+
+  }
+
+  .email {
+    width: 20em;
+  }
+
+  .postalCode {
+    width: 12em;
+  }
+
+  #mce-EMAIL::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+    color: #fff;
+  }
+
+  #mce-PCODE::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+    color: #fff;
+  }
+
+  #mce-EMAIL::-moz-placeholder-placeholder { /* Safari, Chrome and Opera */
+    color: #fff;
+  }
+
+  #mce-PCODE::-moz-placeholder-placeholder { /* Safari, Chrome and Opera */
+    color: #fff;
+  }
+
+  #mce-EMAIL::-ms-input-placeholder { /* Safari, Chrome and Opera */
+    color: #fff;
+  }
+
+  #mce-PCODE::-ms-input-placeholder { /* Safari, Chrome and Opera */
+    color: #fff;
+  }
+
+  #mce-EMAIL::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+    color: #fff;
+  }
+
+  #mce-PCODE::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+    color: #fff;
+  }
+
+
+  #mce-EMAIL:placeholder-shown { /* Standard one last! */
+    color: #fff;
+  }
+
+  #mce-PCODE:placeholder-shown { /* Standard one last! */
+    color: #fff;
+  }
+
+}
+
+.submit-to-mailchimp {
+  padding: 14px 17px;
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  color:#323a45;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+  &:hover {
+    background: #23CE6B;
+    border:1px solid #23CE6B;
+  }
+
+}
+
+.email:focus {
+  border-color: #23CE6B;;
+}
+
+.postalCode:focus {
+  border-color: #23CE6B;
+}
+
+
+div.mce_inline_error {
+  display:none !important;
+}
+
+div#mce-responses {
+  margin-top:40px;
+}
+
+
+
+.phone-icon {
+  height:200px;
+  width:200px;
+}
+
+// Quotes
+
+.author {
+  color:#23CE6B;
+}
+
+.content-logo {
+  margin-top:20px;
+}
+
+
+
+
+// What we Offer
+
+.benefits-list {
+
+  .sub-section {
+  margin:40px 0;
+
+  }
+
+}
+
+// Footer
+
+.logo-wrap {
+  height:auto;
+  width:70px;
+  display:inline-block;
+
+}
+
+footer {
+  
+  .social-icons {
+    display: inline-block;
+    font-size: 17px;
+    margin-right:-7px;
+  }
+
+  .social-icons a {
+    color: #23CE6B;
+  }
+
+}
+
+
+// Partner Page
+
+
+.partner-hero {
+    position: relative;
+    padding: 15px 0 60px 0;
+    min-height: 450px;
+    background: rgb(40, 70, 102) no-repeat center center;
+    background-image:image-url('toronto-skyline.jpg'); 
+    background-size: cover;
+    color: #fff;
+}
+
+.partner-hero h1 {
+    margin: 100px 0 45px 0;
+    font-weight: 300;
+    font-size: 45px;
+    color:#23CE6B;
+}
+.partner-hero h1 span {
+    display: inline-block;
+    color: #a1a9b0;
+}
+
+.partner-hero {
+    width: 100%;
+    height: 100%;
+}
+header i {
+    margin-left: 5px;
+}
+
+
+.partner-form {
+  background:#f5f5f5;
+  padding:40px 0;
+
+  .mc-field-group {
+    display: block;
+  }
+
+
+
+}
+
+.partner-field {
+    margin: 10px 0;
+    padding: 26px 46px;
+    border: 2px solid #C9D1C8;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-partner-form {
+  width:100%;
+  padding: 17px 46px;
+  background: #23CE6B;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  background-image: none;
+  border: 1px solid #23CE6B;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+  &:hover {
+    opacity: 0.9;
+    color:#fff;
+  }
+
+}
+
+.callToAction {
+  background:#12355B;
+  padding:40px 0;
+
+ .section-title {
+    margin-bottom: 40px;
+    color:#23CE6B;
+  }
+}
+
+
+// Media Queries
+
+// 16px base = 1em
+
+
+// 991px
+@media all and (max-width:61.938em) {
+    
+    .hero {
+
+        .sub-headline {
+            width:73%;
+        }
+    }
+
+    .climbcard-intro {
+        padding:110px 0 100px 0;
+    }
+
+    .user-subscribe {
+        font-size: 0.875em;
+    }
+
+    .submit-to-mailchimp {
+        padding: 16px 15px;
+        font-size: 1.1em;
+    }
+
+    .iphone-wrapper {
+      margin-top: 40px;
+    }
+
+
+    .features-slider{
+        height:100%;
+        padding: 5% 80px 5% 80px;
+
+        .flickity-page-dots {
+          padding: 5% 80px 0% 80px;
+        }
+        
+    }
+
+
+}
+
+
+// 719px
+@media all and (max-width:44.938em) {
+
+.hero {
+
+    h1 {
+        font-size:2.3em;
+    }
+
+    .sub-headline {
+    font-size:1.3em;
+    }
+    
+  }
+
+    .img-box {
+        width:58px;
+    }
+
+}
+
+
+// 680px
+@media all and (max-width:42.5em) {
+    
+
+}
+
+
+// 640px
+@media all and (max-width:40em) {
+    
+
+}
+
+
+// max 579px, min 478px
+@media screen and (max-width: 36.188em) and (min-width:29.875em) {
+  
+  .submit-to-mailchimp {
+    margin-top:8px;
+  }
+}
+
+@media all and (max-width:432px) {
+  .os-btn {
+    padding:1em;
+    font-size: 1em;
+  }
+}
+
+
+// 477px
+@media all and (max-width:29.813em) {
+    
+    .hero h1 {
+      margin:4em 0 0 0;
+    }
+
+
+    .user-subscribe .mc-field-group, .user-subscribe .clear {
+      display: block;
+      margin:10px 0;
+    }
+
+    .user-subscribe .email {
+      width: 100%;
+    }
+
+    .user-subscribe .postalCode {
+      width: 100%;
+    }
+
+    .submit-to-mailchimp {
+      width: 100%;
+    }
+
+
+    .features-slider { 
+        padding: 11% 50px 10% 50px;
+    }
+
+    .logo-wrap {
+      width: 60px;
+    }
+
+    .callToAction .section-title {
+      font-size: 1.5em;
+    }
+
+    footer {
+      .col-xs-12 {
+        text-align: center;
+      }
+
+      .footer-nav {
+        text-align: center;
+        margin-top: 2em;
+      }
+    }
+}
+
+
+
+
+
+
+
+
+
