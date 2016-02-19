@@ -13,16 +13,68 @@
 
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require flickity.pkgd.min
 //= require jquery.fancybox.pack
 //= require modernizr-2.6.2.min
 //= require modernizr.custom
 //= require retina
-//= require scripts
 //= require waypoints.min
 //= require toucheffects
 //= require_tree .
+
+
+$(document).ready(function() {
+	
+		/***************** Waypoints ******************/
+
+		$('.wp1').waypoint(function() {
+			$('.wp1').addClass('animated fadeInLeft');
+		}, {
+			offset: '75%'
+		});
+
+		$('.wp2').waypoint(function() {
+			$('.wp2').addClass('animated fadeInDown');
+		}, {
+			offset: '75%'
+		});
+
+		$('.wp3').waypoint(function() {
+			$('.wp3').addClass('animated bounceInDown');
+		}, {
+			offset: '75%'
+		});
+
+		$('.wp4').waypoint(function() {
+			$('.wp4').addClass('animated fadeInDown');
+		}, {
+			offset: '75%'
+	});
+
+		$('.wp5').waypoint(function() {
+			$('.wp5').addClass('animated zoomInDown');
+		}, {
+			offset: '75%'
+	});
+
+});
+
+	/***************** Flickity ******************/
+
+$(window).load(function() {
+		console.log("window has loaded for flickity");
+	$('#featuresSlider').flickity({
+			cellAlign: 'left',
+			contain: true,
+			prevNextButtons: false,
+			imagesLoaded: true,
+			lazyLoad: 4,
+			autoPlay: true
+	});
+
+});
+
+
 
 
 
