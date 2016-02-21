@@ -658,7 +658,7 @@ Features Slider
     position: relative;
     padding: 7% 80px 10% 80px;
     height: 400px;
-    background-color: #12355B;
+    background-color: #0D1836;
     text-align: center;
 }
 .features-slider ul {
@@ -742,13 +742,13 @@ Benefits List
     margin:30px 0px;
     width: 90px;
     height: 90px;
-    border: 2px solid #12355B;
+    border: 2px solid #0D1836;
     border-radius: 50%;
     vertical-align: top;
     text-align: center;
     font-size: 25px;
     line-height: 90px;
-    background: #12355B;
+    background: #0D1836;
 }
 .feature-icon i {
     color: #23CE6B;
@@ -1389,7 +1389,7 @@ header i {
 }
 
 .callToAction {
-  background:#12355B;
+  background:#0D1836;
   padding:40px 0;
 
  .section-title {
@@ -1548,6 +1548,10 @@ header i {
 
     .logo-wrap {
       width: 60px;
+    }
+
+    .features-bg {
+      background-position: 60% 0%;
     }
 
     .callToAction .section-title {
