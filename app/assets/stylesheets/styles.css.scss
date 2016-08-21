@@ -702,6 +702,28 @@ Features Slider
 }
 
 
+// Shopify Buy Now
+
+
+.buy_wrapper {
+  margin:30px 0;
+}
+
+.buy_now {
+  color:#fff;
+  padding:15px 30px;
+  background: #23ce6b;
+  border-radius:3px;
+
+  &:hover {
+    color:#fff;
+    background: #1fb860;
+  }
+
+}
+
+
+
 /* ==========================================================================
 Benefits List
 ========================================================================== */
@@ -803,6 +825,13 @@ Showcase
     margin-bottom: 25px;
     color: #778899;
 }
+
+.showcase ol {
+  margin: 1em;
+  color: #778899;
+  font-size: 16px;
+}
+
 .device {
     position: absolute;
     top: -87px;
@@ -1120,6 +1149,15 @@ a:hover, a:active {
   line-height: 1.4;
 }
 
+.sub-headline2 {
+  margin:30px 0;
+  display: inline-block;
+  width: 60%;
+  font-size: 1.438em;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
 
 .social-icons {
 
@@ -1289,6 +1327,13 @@ div#mce-responses {
 
 }
 
+// ClimbCard Wallet
+
+.wallet-card {
+    height: 625px;
+    width: auto;
+}
+
 // Footer
 
 .logo-wrap {
@@ -1389,7 +1434,7 @@ header i {
 }
 
 .callToAction {
-  background:#0D1836;
+  background:#171738;
   padding:40px 0;
 
  .section-title {
@@ -1510,6 +1555,7 @@ header i {
     .user-subscribe .postalCode {
       width: 100%;
     }
+
 
     .submit-to-mailchimp {
       width: 100%;

@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get '/partner' => 'pages#partner'
 
+  get '/live' => 'pages#live'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

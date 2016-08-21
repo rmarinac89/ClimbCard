@@ -9,7 +9,7 @@
 				<div class="container">
 					<div class="row nav-wrapper">
 						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
-								<%= link_to root_path do %>
+								<%= link_to live_path do %>
 									<%= image_tag "new_white_logo.png", class: "img-box", alt: "ClimbCard Logo" %>
 								<% end %>
 						</div>
@@ -24,10 +24,18 @@
 						<div class="col-md-12">
 							<h1 class="animated fadeInDown">Hundreds of routes. One community.</h1>
 							<div class="sub-wrapper">
-							<p class="sub-headline">Launching Fall 2016, ClimbCard is your key to discovering new rock climbing gyms.</p>
+							<p class="sub-headline2">ClimbCard is a digital passport that allows you to explore our network of gyms at a discount.</p>
 							</div>
 
-							<%= render "layouts/partials/mailchimp_form" %>
+							<!-- <div data-embed_type="product" data-shop="climberscard.myshopify.com" data-product_name="ClimbCard" data-product_handle="gift-card" data-has_image="false" data-display_size="compact" data-redirect_to="checkout" data-buy_button_text="BUY NOW" data-buy_button_out_of_stock_text="Out of Stock" data-buy_button_product_unavailable_text="Unavailable" data-button_background_color="23ce6b" data-button_text_color="ffffff" data-product_modal="false" data-product_title_color="000000" data-next_page_button_text="Next page"></div>
+							<script type="text/javascript">
+							document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
+							</script>
+							<noscript><a href="https://climberscard.myshopify.com/cart/26320492102:1" target="_blank">Buy ClimbCard</a></noscript> -->
+							
+							<div class="buy_wrapper">
+								<a class="buy_now" href="https://climberscard.myshopify.com/cart/26320492102:1" target="_blank">BUY NOW</a>
+							</div>
 
 						</div>
 					</div>
@@ -104,6 +112,12 @@
 							</p>
 							<p>Once enrolled as a ClimbCard member, you will recieve a digital membership card. Simply visit any of our partner gyms, present your ClimbCard and start climbing. Its that simple!</p>
 							
+							<!-- <ol>
+								<li>Create account</li>
+								<li>Add your ClimbCard to Apple Wallet</li>
+								<li>Exchange credits at partner rock climbing gyms for exclusive rates</li>
+								<li>Discover new gyms and get climbing</li>
+							</ol> -->
 
 							<div class="os-btn-group">
 								<div class="os-btn">
@@ -182,13 +196,13 @@
 					<div class="col-md-6">
 						<div class="faq-block">
 						<h5>Are there any restrictions as to when I can climb?</h5>
-						<p>With ClimbCard, you can climb at any of our partner gyms with no restrictions. Regardless of if you prefer to climb morning, afternoon or night, ClimbCard gives you full access to your favourite climbing gyms.</p>
+						<p>As a ClimbCard user you can take advantage of our preferred pricing anytime. Simply visit any of our partner gyms, present your card and start climbing!</p>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="faq-block">
 						<h5>Can I boulder, top-rope and lead climb?</h5>
-						<p>Absolutely! All of the the ClimbCard partner gyms have a variety of walls sure to challenge climbers of every skill-set. Belay tests may be required to climb on some walls.</p>
+						<p>Absolutely! All of the the ClimbCard partner gyms have a variety of walls sure to challenge climbers of every skill-set.</p>
 						</div>
 					</div>
 				</div>
@@ -196,13 +210,13 @@
 					<div class="col-md-6">
 						<div class="faq-block">
 						<h5>Does this include rental equipment?</h5>
-						<p>No, rental equipment is not included in the membership. In order to get started we recommend purchasing a harness, climbing shoes and a chalk bag.</p>
+						<p>No, rental equipment is not included in the membership. In order to get started we recommend buying a harness, climbing shoes and a chalk bag.</p>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="faq-block">
-						<h5>Can I put my membership on hold?</h5>
-						<p>Certainly! We understand that you may need to take a break. Simply put your membership on hold and resume once you’re ready.</p>
+						<h5>Does my ClimbCard expire?</h5>
+						<p>No! Your ClimbCard will remain active as long as you have a balance.</p>
 						</div>
 					</div>
 				</div>
@@ -211,7 +225,7 @@
 
 		<section class="callToAction group">
 			<div class="col-md-12">
-			<h1 class="section-title text-center">Want early access? Sign up for the latest news!</h1>
+			<h1 class="section-title text-center">Sign up for the latest ClimbCard news!</h1>
 			<section class="user-subscribe">
 				<div id="mc_embed_signup">
 				<form action="//climbcard.us12.list-manage.com/subscribe/post?u=62b58dfeef74782cefec4dfcc&amp;id=894976712f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate text-center" target="_blank" novalidate>
@@ -225,7 +239,7 @@
 				</div>
 
 				    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_62b58dfeef74782cefec4dfcc_894976712f" tabindex="-1" value=""></div>
-				    <div class="clear"><input type="submit" value="Notify Me" name="notify_me" id="mc-embedded-subscribe" class="button submit-to-mailchimp"></div>
+				    <div class="clear"><input type="submit" value="SIGN UP" name="notify_me" id="mc-embedded-subscribe" class="button submit-to-mailchimp"></div>
 				    </div>
 				    	<div id="mce-responses" class="clear">
 								<div class="response" id="mce-error-response" style="display:none"></div>
@@ -241,7 +255,7 @@
 		
 		<!-- Footer -->
 
-		<%= render "layouts/partials/beta_footer" %>
+		<%= render "layouts/partials/live_footer" %>
 		
 		<!-- / Footer -->
 
