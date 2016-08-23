@@ -714,6 +714,7 @@ Features Slider
   padding:15px 30px;
   background: #23ce6b;
   border-radius:3px;
+  font-size:18px;
 
   &:hover {
     color:#fff;
@@ -822,7 +823,7 @@ Showcase
     font-size: 22px;
 }
 .showcase p {
-    margin-bottom: 25px;
+    // margin-bottom: 25px;
     color: #778899;
 }
 
@@ -868,6 +869,8 @@ Showcase
     bottom: 20px;
 }
 
+
+
 /* ==========================================================================
 Climbcard Intro
 ========================================================================== */
@@ -905,6 +908,26 @@ Climbcard Intro
         color: #344444;
     }
 }
+
+/* ==========================================================================
+How it Works
+========================================================================== */
+
+.steps {
+  margin:15px 0;
+
+  .instruction {
+    display:inline-block;
+  }
+
+
+    span {
+      color:#333;
+    }
+
+}
+
+
 
 
 /* ==========================================================================
